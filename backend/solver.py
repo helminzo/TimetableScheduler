@@ -124,7 +124,6 @@ for teacher in teachesClassVars:
         try:
             hoursRequired = classes[dept][year][section][courseName]
         except KeyError:
-            print("FUCK ME!")
             hoursRequired = 0
         if(hoursRequired > 0):
             teacherConstraints = []
